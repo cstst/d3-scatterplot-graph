@@ -1,4 +1,4 @@
-svg {
+#graph {
   border: 1px solid blue;
   margin: 2em;
 }
@@ -6,4 +6,12 @@ svg {
 #display {
   display: inline-block;
   border: 1px solid red;
+}
+
+.circle {
+  fill: black;
+}
+
+#x-axis {
+  border: 10px solid pink;
 }

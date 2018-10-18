@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Graph from './components/Graph';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div id="display">
         <Graph />
-      </React.Fragment>
+      </div>
     );
   }
 }

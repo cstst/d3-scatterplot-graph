@@ -1,17 +1,32 @@
 #graph {
-  border: 1px solid blue;
-  margin: 2em;
+  margin: .5em;
 }
 
 #display {
   display: inline-block;
-  border: 1px solid red;
+  border: 1px solid black;
+  border-radius: .25em;
 }
 
-.circle {
-  fill: black;
+#tooltip {
+  white-space: pre-wrap;
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  background: white;
+  border: 1px solid black;
+  border-radius: .25em;
+  padding: .25em;
 }
 
 #x-axis {
   border: 10px solid pink;
+}
+
+#title {
+  font-size: 1.5em;
+}
+
+#subtitle {
+  font-size: 1em;
 }
